@@ -15,6 +15,8 @@ Scenario('I.amOnPage-Test', ({ I }) => {
 
     });
 
+    //github authorization
+
     Scenario('2.TestCase2-Test', ({I}) => {
         
         I.amOnPage('https://github.com/');
@@ -30,4 +32,6 @@ Scenario('I.amOnPage-Test', ({ I }) => {
         I.click(".btn");
         I.see("Repositories ");
         I.dontSee("Sign in to GitHub");
+
+        
     });
