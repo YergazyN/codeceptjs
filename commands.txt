@@ -1,0 +1,31 @@
+// common run
+
+npx codeceptjs run
+
+// run exact Scenario(TestCase)
+
+npx codeceptjs run --grep 'scenario name'
+
+// run file 
+
+npx codeceptjs run file_name
+
+// run file with steps
+
+npx codeceptjs run file_name --steps
+
+// run in multiple browsers
+
+npx codeceptjs run-multiple --all
+
+// run workers
+
+npx codeceptjs run-workers 3
+
+// run debug
+
+npx codeceptjs run --grep '2.TestCase2-Test' --debug
+
+//run --verbose
+
+npx codeceptjs run --grep '2.TestCase2-Test' --verbose

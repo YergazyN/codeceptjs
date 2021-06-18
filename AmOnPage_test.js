@@ -1,5 +1,5 @@
 Feature('GoogleSearch');
-Scenario('I.amOnPage-Test', ({ I }) => {
+Scenario('1.amOnPage-Test', ({ I }) => {
     I.amOnPage('/');
     I.wait(1);
     I.amOnPage('/doodles');
@@ -19,7 +19,7 @@ Scenario('I.amOnPage-Test', ({ I }) => {
         I.fillField("#login_field", "YergazyN");
         I.fillField("#password", "Aikosha2017");
         I.click(".btn");
-        I.see("Repositories ");
+        I.see("Repositories");
         I.dontSee("Sign in to GitHub");        
     });
 

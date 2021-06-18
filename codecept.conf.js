@@ -31,5 +31,10 @@ exports.config = {
     screenshotOnFail: {
       enabled: true
     }
+  },
+  multiple: {
+    parallel:{
+      chunks: 2
+    }
   }
 }
